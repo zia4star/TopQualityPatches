@@ -1,0 +1,90 @@
+{
+  "gallery": [
+    {
+      "img": "Bear-Patch.jpg",
+      "location": ""
+    },
+    {
+      "img": "ButtonPretty.jpg",
+      "location": ""
+    },
+    {
+      "img": "Car-jjj666.jpg",
+      "location": ""
+    },
+    {
+      "img": "Central-Sub2.jpg",
+      "location": ""
+    },
+    {
+      "img": "Chenille-Sample.jpeg",
+      "location": ""
+    },
+    {
+      "img": "eagle-ride.jpg",
+      "location": ""
+    },
+    {
+      "img": "Excommunicado11.jpg",
+      "location": ""
+    },
+    {
+      "img": "Sublimated-Sample.jpeg",
+      "location": ""
+    }
+  ]
+  ,
+  "patchesGallery": [
+    { "img": "patchesGallery/Bay-.jpg", "location": "" },
+    { "img": "patchesGallery/Bear-Patch-1.jpg", "location": "" },
+    { "img": "patchesGallery/ButtonPretty-1.jpg", "location": "" },
+    { "img": "patchesGallery/Car-jjj666-1.jpg", "location": "" },
+    { "img": "patchesGallery/Central-Sub2-1.jpg", "location": "" },
+    { "img": "patchesGallery/Chenille-Sample-1.jpeg", "location": "" },
+    { "img": "patchesGallery/Excommunicado11-1.jpg", "location": "" },
+    { "img": "patchesGallery/HarleyDavidson.jpg", "location": "" },
+    { "img": "patchesGallery/Ron-Jon-Sub.jpg", "location": "" },
+    { "img": "patchesGallery/SANDWICH-PATCH.jpg", "location": "" },
+    { "img": "patchesGallery/Social-Media-12.jpg", "location": "" },
+    { "img": "patchesGallery/Social-Media-14.jpg", "location": "" },
+    { "img": "patchesGallery/Social-Media-18.jpg", "location": "" },
+    { "img": "patchesGallery/Social-Media-2.jpg", "location": "" },
+    { "img": "patchesGallery/Social-Media-23.jpg", "location": "" },
+    { "img": "patchesGallery/Social-Media-5.jpg", "location": "" },
+    { "img": "patchesGallery/Sublimated-Sample-1.jpeg", "location": "" },
+    { "img": "patchesGallery/Trumpo-.jpg", "location": "" },
+    { "img": "patchesGallery/eagle-ride-1.jpg", "location": "" },
+    { "img": "patchesGallery/fOX.jpg", "location": "" },
+    { "img": "patchesGallery/keychain.jpg", "location": "" },
+    { "img": "patchesGallery/leather-.jpg", "location": "" }
+  ],
+  "digiGallery": [
+    { "img": "digiGallery/Dig-1-1.jpg", "location": "" },
+    { "img": "digiGallery/Dig-10.jpg", "location": "" },
+    { "img": "digiGallery/Dig-11-1.jpg", "location": "" },
+    { "img": "digiGallery/Dig-12.jpg", "location": "" },
+    { "img": "digiGallery/Dig-13.jpg", "location": "" },
+    { "img": "digiGallery/Dig-14.jpg", "location": "" },
+    { "img": "digiGallery/Dig-2-1.jpg", "location": "" },
+    { "img": "digiGallery/Dig-3.jpg", "location": "" },
+    { "img": "digiGallery/Dig-5.jpg", "location": "" },
+    { "img": "digiGallery/Dig-6.jpg", "location": "" },
+    { "img": "digiGallery/Dig-8.jpg", "location": "" },
+    { "img": "digiGallery/Dig-9-1.jpg", "location": "" },
+    { "img": "digiGallery/Dog.jpg", "location": "" },
+    { "img": "digiGallery/IMG-20231223-WA0255-1.jpg", "location": "" },
+    { "img": "digiGallery/MANIFR.jpg", "location": "" },
+    { "img": "digiGallery/Social-Media-13.jpg", "location": "" },
+    { "img": "digiGallery/Social-Media-7.jpg", "location": "" },
+    { "img": "digiGallery/VeganNizzy.jpg", "location": "" }
+  ],
+  "vectorGallery": [
+    { "img": "vectorGallery/09-01-scaled.jpg", "location": "" },
+    { "img": "vectorGallery/1.jpg", "location": "" },
+    { "img": "vectorGallery/10-1.jpg", "location": "" },
+    { "img": "vectorGallery/12-1.jpg", "location": "" },
+    { "img": "vectorGallery/13.jpg", "location": "" },
+    { "img": "vectorGallery/2-1.jpg", "location": "" },
+    { "img": "vectorGallery/8.jpg", "location": "" }
+  ]
+}
