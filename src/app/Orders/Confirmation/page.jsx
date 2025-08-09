@@ -1,10 +1,10 @@
 import Link from 'next/link'
-import { CheckCircleIcon } from '@heroicons/react/24/outline'
+// import { CheckCircleIcon } from '@heroicons/react/24/outline'
 
 export default function OrderConfirmationPage() {
   return (
     <div className="max-w-2xl mx-auto py-20 px-4 text-center space-y-6">
-      <CheckCircleIcon className="mx-auto h-20 w-20 text-green-500" />
+      {/* <CheckCircleIcon className="mx-auto h-20 w-20 text-green-500" /> */}
       <h1 className="text-3xl font-bold text-green-700">Order Submitted!</h1>
       <p className="text-gray-700">
         Thank you for your order. Our team will contact you shortly via email or WhatsApp.
