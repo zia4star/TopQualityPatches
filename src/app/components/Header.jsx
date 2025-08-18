@@ -2,13 +2,17 @@
 import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaInstagram,  FaPhoneAlt, FaEnvelopeOpenText, FaFacebook } from 'react-icons/fa';
-import {  Container, Nav, Navbar,  Offcanvas } from 'react-bootstrap';
+import {  Container, Nav, Navbar,  Offcanvas, Modal } from 'react-bootstrap';
 import { usePathname } from 'next/navigation';
 import GetQuote from './GetQuote';
-
+import { useState } from 'react';
 
 const Header = () =>{
     const pathname = usePathname();
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
     return(
         <>
             {/* Social Icons */}
@@ -50,13 +54,28 @@ const Header = () =>{
             </Link>
     
         
-            <div className='col-2 header_btn'>
+            {/* <div className='col-2 header_btn'>
                 <Link href={'/'} className="btn" role="button">
                 Get a<br/> Quote
                 </Link>
+            </div> */}
+            <div className='col-2 header_btn'>
+            {/* Trigger modal */}
+            <button className="btn" onClick={handleShow}>
+                Get a<br /> Quote
+            </button>
             </div>
 
         </div>
+         {/* Modal */}
+        <Modal show={show} onHide={handleClose} size="md" centered>
+            <Modal.Header closeButton>
+            <Modal.Title>Request a Quote</Modal.Title>
+            </Modal.Header>
+            <Modal.Body>
+            <GetQuote />
+            </Modal.Body>
+        </Modal>
         {/*  */}
 
     <Navbar collapseOnSelect expand="lg" className=" sticky-top bg-body-tertiary">
