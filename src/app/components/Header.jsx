@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { FaInstagram,  FaPhoneAlt, FaEnvelopeOpenText, FaFacebook } from 'react-icons/fa';
 import {  Container, Nav, Navbar,  Offcanvas } from 'react-bootstrap';
 import { usePathname } from 'next/navigation';
+import GetQuote from './GetQuote';
 
 
 const Header = () =>{
@@ -13,8 +14,8 @@ const Header = () =>{
             {/* Social Icons */}
         <div className="header_social_icons">
             <div className="icons_header flex py-2 container">
-                <a href="/" aria-label="Facebook"><FaFacebook /></a>
-                <a href="/" aria-label="Instagram"><FaInstagram/></a>
+                <a href="https://www.facebook.com/topqualitypatches" aria-label="Facebook"><FaFacebook /></a>
+                <a href="https://www.instagram.com/topqualitypatches_official" aria-label="Instagram"><FaInstagram/></a>
             </div>
         </div>
 
@@ -28,17 +29,17 @@ const Header = () =>{
                 />
             </Link>
 
-            <Link href='tel:+13109614590' className='col phone_mail d-flex flex-row align-items-center justify-content-center gap-3'>
+            <Link href='tel:+13107596154' className='col phone_mail d-flex flex-row align-items-center justify-content-center gap-3'>
                     <div className=''>
                     <FaPhoneAlt/>
                     </div>
                     <div className=''>
                     <span>Phone</span><br/>
-                    +1 3109614590
+                    +1 310-759-6154
                     </div>
             </Link>
 
-            <Link href='tel:+13109614590' className='col phone_mail d-flex flex-row align-items-center justify-content-center gap-3'>
+            <Link href='mailto:design@topqualitypatches.com' className='col phone_mail d-flex flex-row align-items-center justify-content-center gap-3'>
                 <div className=''>
                     <FaEnvelopeOpenText/>
                 </div>
@@ -50,7 +51,7 @@ const Header = () =>{
     
         
             <div className='col-2 header_btn'>
-                <Link href='https://www.google.com' className="btn" role="button">
+                <Link href={'/'} className="btn" role="button">
                 Get a<br/> Quote
                 </Link>
             </div>
