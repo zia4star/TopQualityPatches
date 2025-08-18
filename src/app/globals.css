@@ -103,12 +103,12 @@ color: blue !important;
   align-items: center;
   justify-content: center;
  }
- .header_btn a{
+ .header_btn button{
   padding-inline: 2rem !important;
   line-height: 16px;
   border: 1px solid #030303;
  }
- .header_btn a:hover{
+ .header_btn button:hover{
   background-color: #5B182B;
   border-color: #5B182B;
   color: #ffffff;
