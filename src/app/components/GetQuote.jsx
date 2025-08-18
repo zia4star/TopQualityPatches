@@ -1,7 +1,7 @@
 'use client'
 
 import { useState } from 'react'
-import { Button, Card, CardHeader, Col, Form, InputGroup, Row } from 'react-bootstrap'
+import {  Card, CardHeader, Col, Form, InputGroup, Row } from 'react-bootstrap'
 
 export const metadata = {
   title: 'Request a Quote | Top Quality Patches',
@@ -80,7 +80,7 @@ export default function GetQuote() {
 
   return (
     <>
-        <Card className="get_quote shadow">
+        <Card className="get_quote ">
               <h2 className=''>Get a Quote Now</h2>
             <Card.Body className=''>
           {submitted ? (
@@ -272,8 +272,8 @@ export default function GetQuote() {
                         </Form.Control.Feedback> */}
                     </Form.Group>
                 </Row>
-                <div className=' text-center mt-2'>
-                <Button type="submit">Submit Quote</Button>
+                <div className='Quote_submit'>
+                <button type="submit">Submit</button>
                 </div>
             </Form>
           )}

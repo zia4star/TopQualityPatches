@@ -1,8 +1,9 @@
 // components/PatchTypesSection.jsx
 import React, { useEffect } from 'react';
-import { Container, Row, Col, Card, Button } from 'react-bootstrap';
+import { Container, Row, Col, Card } from 'react-bootstrap';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Link from 'next/link';
 
 const cardData = [
   {
@@ -64,11 +65,11 @@ const PatchTypesSection = () => {
                     className="six_card_img"
                   />
                   <Card.Text>{card.paragraph}</Card.Text>
-                  <div className="mt-auto">
-                    <Button className="fw-bold  px-4">
-                      Read More
-                    </Button>
-                  </div>
+                  {/* <div className="read_more_btn"> */}
+                    <Link href={'/'} className="btn_primary">
+                      Learn More
+                    </Link>
+                  {/* </div> */}
                 </Card.Body>
               </Card>
 

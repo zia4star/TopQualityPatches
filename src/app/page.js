@@ -43,6 +43,14 @@ useEffect(() => {
       <Hero 
       heroImages={heroImages}
       />
+      <Container className=" d-flex align-items-center justify-content-center">
+        <img
+        src={'/banner.png'}
+        alt=""
+        width={250}
+        height={100}
+        />
+      </Container>
       <section className="py-5 bg-light industries-section">
       <Container>
         <Row className="mb-4">

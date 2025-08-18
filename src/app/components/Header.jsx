@@ -11,7 +11,7 @@ const Header = () =>{
     return(
         <>
             {/* Social Icons */}
-        <div className="bg-white text-[#969696] border-b-[0.1px] border-[#969696]">
+        <div className="header_social_icons">
             <div className="icons_header flex py-2 container">
                 <a href="/" aria-label="Facebook"><FaFacebook /></a>
                 <a href="/" aria-label="Instagram"><FaInstagram/></a>
