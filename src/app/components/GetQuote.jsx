@@ -128,7 +128,7 @@ export default function GetQuote() {
                      value={formData.width}
                      onChange={handleChange}
                      type="number" 
-                     placeholder="Width cm" />
+                     placeholder="Width inch" />
                     </Form.Group>
 
                     <Form.Group as={Col} >
@@ -139,7 +139,7 @@ export default function GetQuote() {
                      value={formData.height}
                      onChange={handleChange}
                      type="number" 
-                     placeholder="Height cm" />
+                     placeholder="Height inch" />
                     </Form.Group>
                 </Row>
 
