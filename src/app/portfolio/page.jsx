@@ -14,7 +14,7 @@ export default function portfolio() {
                     <div className="left_side">
                         <h1>Our Portfolio</h1>
                         <p>
-                            Top Quality Patches is a leading provider of high-quality digitizing vectors. See our portfolio for getting insights.
+                            Top Quality Patches is a leading provider of high-quality and digitizing vectors. See our portfolio for getting insights.
                         </p>
                     </div>
                 </Col>

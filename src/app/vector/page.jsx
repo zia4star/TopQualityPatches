@@ -38,7 +38,7 @@ return(
     <VectorSection
       imgSrc="/vector_page/2.png"
       heading1="Hand-Drawn Vector"
-      paragraph1="We create manually using vector tools in software like Adobe Illustrator, Corel Draw."
+      paragraph1="We create every design manually using vector tools in software like Adobe Illustrator, Corel Draw."
       // heading2="Design"
       // paragraph2="Our staff of knowledgeable printers is available to assist with document design and layout creation, in addition to providing printing services. Our extensive design knowledge is beneficial, particularly for novices, as we are committed to producing a design that precisely embodies your preferences. You can rely on us to deliver the services you require with innovation and originality."
       bgClass="bg-lite-grey"

@@ -10,7 +10,7 @@ const cardData = [
     heading: 'Embroidery',
     image: './Six_cards/fox-png.png',
     paragraph:
-      'Top Quality Patches offers timeless custom custom leather patches that are perfect for military units, sports teams, and other organizations seeking to symbolize pride and recognition. Our embroidery team is highly skilled and takes great care to ensure that each design is executed with precision. The use of vibrant threads and intricate stitching techniques gives our custom leather patches a classic and professional look that stands the test of time',
+      'Top Quality Patches offers timeless custom leather patches that are perfect for military units, sports teams, and other organizations seeking to symbolize pride and recognition. Our embroidery team is highly skilled and takes great care to ensure that each design is executed with precision. The use of vibrant threads and intricate stitching techniques gives our custom leather patches a classic and professional look that stands the test of time',
   },
   {
     heading: 'Chenille',

@@ -6,6 +6,43 @@ export default function Pricing(){
     const pricingPlans = [
         
         
+        
+        {
+          title: "CAPS LOGO / LEFT CHEST",
+          price: "$15/$20",
+          subtitle: "PER LOGO",
+          features: [
+            "FREE EDITS",
+            "FREE COLOR CHANGE",
+            "12 to 48 hours turnaround ",
+            "2 hours if rush",
+            "EMB DST PDF JPG",
+            "Other formats (on request)",
+            "Small edits free",
+            "Revisions free",
+            "Discount on bulk order",
+          ],
+          button: "Order Now",
+          variant: "highlighted",
+          badge: "Popular",
+        },
+        {
+          title: "Mid-Size",
+          price: "$30-50",
+          subtitle: "Per Logo",
+          features: [
+            "FREE EDITS",
+            "Free color change",
+            "12 to 48 hours turnaround ",
+            "3-4 hours if rush",
+            "EMB DST PDF JPG",
+            "Other formats (on request)",
+            "Revisions free",
+            "Discount on bulk order",
+          ],
+          button: "Order Now",
+          variant: "light",
+        },
         {
           title: "JACKET BACK",
           price: "$50-120",
@@ -15,7 +52,7 @@ export default function Pricing(){
             "FREE COLOR CHANGE",
             "48 hours turnaround",
             "4-8 hours if rush",
-            "EMB DST PDF BMP/JPG",
+            "EMB DST PDF JPG",
             "Other formats (on request)",
             "Small edits free",
             "Revisions free",
@@ -24,43 +61,24 @@ export default function Pricing(){
           button: "Order Now",
           variant: "light",
         },
-        {
-            title: "LEFT CHEST / CAPS LOGO",
-            price: "$20",
-            subtitle: "PER LOGO",
-            features: [
-              "FREE EDITS",
-              "FREE COLOR CHANGE",
-              "4 hours turnaround",
-              "2 hours if rush",
-              "EMB DST PDF BMP/JPG",
-              "Other formats (on request)",
-              "Small edits free",
-              "Revisions free",
-              "Discount on bulk order",
-            ],
-            button: "Order Now",
-            variant: "highlighted",
-            badge: "Popular",
-          },
+        
         {
           title: "VECTOR",
-          price: "$12-90",
+          price: "$12-120",
           subtitle: "depends upon the complexity of artwork",
           features: [
             "FREE EDITS",
-            "FREE COLOR CHANGE",
-            "4 hours turnaround",
+            "12 to 48 hours turnaround ",
             "3-4 hours if rush",
             "AI EPS PDF CDR JPG",
             "Other formats (on request)",
-            "Small edits free",
             "Revisions free",
             "Discount on bulk order",
           ],
           button: "Order Now",
           variant: "light",
         },
+        
       ];
     return(
         <>
@@ -68,7 +86,7 @@ export default function Pricing(){
         <div>
         <span>━  PRICING PLAN ━</span>
         <h2>DIGITIZING & Vector:</h2>
-        <p>Top Quality Ounches will bill the customer after order the order has been completed and delivered. Orders will be billed as quoted price or, if quote not requested by customer, based on stitch count as shown below. Special pricing may be given for volume ordres. We accept Visa, Master Card, American Express and Discover as payments. If terms are needed, please contact us.</p>
+        <p>Top Quality Ounches will bill the customer after order the order has been completed and delivered. Orders will be billed as quoted price or, if quote not requested by customer, based on stitch count as shown below. Special pricing may be given for volume ordres. We accept PayPal, Visa, Master Card, American Express and Discover as payments. If terms are needed, please contact us.</p>
         </div>
         </Container>
     
