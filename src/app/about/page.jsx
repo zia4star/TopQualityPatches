@@ -11,11 +11,6 @@ const data =[
         para:'We have gained praise and recognition for supplying high-end custom products at competitive prices in the fashion industry.',
     },
     {
-        icon:<FaAward/>,
-        heading:'Awards Achievement',
-        para:'We have a proven record of earning awards for manufacturing unique and visually appealing designs for 10 years.',
-    },
-    {
         icon:<FaClock/>,
         heading:'Efficient & High-Quality Work',
         para:'Our competent designers provide exceptional work in a fraction of the time, leaving a lasting impression.',
@@ -58,16 +53,7 @@ For high quality and personal customized Logo embroidery digitizing and other su
         paraColor='text-black'
         headingColor='text-black'
         />
-        <VectorSection
-        imgSrc="/about_page/Vision.webp"
-        heading1="Our Vision"
-        paragraph1="At Quality Patches, we are all about you–our valued customers. We understand your needs and preferences are unique, and we take the time to work closely with you to create a custom patch design that meets your specific requirements."
-        paragraph2="Our philosophy is centered on open communication, transparency, and flexibility, allowing us to stay connected with you every step of the way. With every project, we pour our heart and soul into creating something truly special. When you choose Quality Patches, you can trust that you are in good hands."
-        bgClass="bg-white"
-        reverse={true}
-        paraColor='text-black'
-        headingColor='text-black'
-        />
+       
         <Container className="about_crds_contner py-5">
             <div className="about_crds_cont">
                 <h2>Our Core Values</h2>
