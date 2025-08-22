@@ -18,8 +18,8 @@ const Header = () =>{
             {/* Social Icons */}
         <div className="header_social_icons">
             <div className="icons_header flex py-2 container">
-                <a href="https://www.facebook.com/topqualitypatches" aria-label="Facebook"><FaFacebook /></a>
-                <a href="https://www.instagram.com/topqualitypatches_official" aria-label="Instagram"><FaInstagram/></a>
+                <a href="https://www.facebook.com/topqualitypatches" target='blank' aria-label="Facebook"><FaFacebook /></a>
+                <a href="https://www.instagram.com/topqualitypatches_official" target='blank' aria-label="Instagram"><FaInstagram/></a>
             </div>
         </div>
 

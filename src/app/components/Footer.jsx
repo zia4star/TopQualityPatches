@@ -58,7 +58,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <FaPhoneAlt className="text-primary text-[24px]" />
-                  <a href="#">310 961 4590</a>
+                  <a href='tel:+13107596154' alt='call'>+1 310-759-6154</a>
                 </li>
                 <li>
                   <img src="/payment_methods.png" alt="Logo" className="w-100 h-auto" />

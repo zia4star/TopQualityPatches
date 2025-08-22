@@ -26,10 +26,10 @@ return(
     />
     <VectorSection
       imgSrc="/vector_page/1.jpg"
-      heading1="Printing Services"
-      paragraph1="Are you tired and weary of distorted photos and blurry prints? Do you aim for clear, excellent graphics that perfectly capture your brand? There's nowhere else to look! We can bring your vision to life with exceptional clarity and precision by combining the power of vector design with our expert printing service."
-      heading2="Basic Printing Services"
-      paragraph2="For modest and simple documents made in residences, small businesses, and schools, basic printing services are offered. For better results, it is advisable to speak with a professional printing provider when printing several pages. Posters, banners, and signs can also be printed using these services; however, in order to prevent distortion, vector pictures are advised. Professional printers can also help with custom document and template design."
+      heading1="Vector Art Services"
+      paragraph1="Are you tired and weary of distorted photos and blurry prints? Do you aim for clear, excellent graphics that perfectly capture your brand? There's nowhere else to look! We can bring your vision to life with exceptional clarity and precision by combining the power of vector design with our expert Designers."
+      heading2="Separation Services"
+      paragraph2="It involves breaking down a multi-color vector design into its constituent colors, preparing it for specific printing methods like screen printing, offset printing, or digital printing."
       bgClass="bg-dark-burgundy"
       reverse={false}
       paraColor='text-white'
@@ -37,8 +37,8 @@ return(
     />
     <VectorSection
       imgSrc="/vector_page/2.png"
-      heading1="Pоѕtеrѕ, Banners, аnd Prіntіng оf Signs"
-      paragraph1="For modest and simple documents made in residences, small businesses, and schools, basic printing services are offered. For better results, it is advisable to speak with a professional printing provider when printing several pages. Posters, banners, and signs can also be printed using these services; however, in order to prevent distortion, vector pictures are advised. Professional printers can also help with custom document and template design."
+      heading1="Hand-Drawn Vector"
+      paragraph1="We create manually using vector tools in software like Adobe Illustrator, Corel Draw."
       heading2="Design"
       paragraph2="Our staff of knowledgeable printers is available to assist with document design and layout creation, in addition to providing printing services. Our extensive design knowledge is beneficial, particularly for novices, as we are committed to producing a design that precisely embodies your preferences. You can rely on us to deliver the services you require with innovation and originality."
       bgClass="bg-lite-grey"
