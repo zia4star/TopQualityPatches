@@ -48,10 +48,11 @@ export default function About(){
         />
         <VectorSection
         imgSrc="/about_page/About-QP.webp"
-        heading1="About QP"
-        paragraph1="Quality Patches is a premier provider of custom patches, dedicated to delivering exceptional products to our valued customers worldwide. Our skilled artists and designers expertly transform your ideas into reality, crafting precision-quality custom patches that tell your unique story. "
-        paragraph2="We specialize in visually stunning custom embroidery patches and custom chenille patches, perfect for your next event or festival.  Contact us today to create eye-catching designs that will leave a lasting impression, all at competitive prices."
-        paragraph3="Our commitment to excellence has earned us numerous awards as a top digitizing company, renowned for delivering high-quality designs at wholesale prices."
+        heading1="About Us"
+        paragraph1="Top Quslity Patches is one of the top digitizing companies in the world, we provide services in several countries including USA, UK, Canada and most of the countries in Europe. We provide the best quality Patches,digitizing and vector art services to meet our customer satisfaction. Our aim is to keep low prices with high quality which is unbeatable in the market. Our Words are not just words we prove it with our work."
+        paragraph2="We convert the image of a logo into specific commands which embroidery machine can read and interpret in a specific, streamlined and automated fashion. Logo digitizing can be done as appliques, cap logos, shirt logos, 2d Digitizing, 3D puff digitizing. With logo digitizing, the best part is that even minute details can be captured within the digitized design by using specific stitches like running or satin stitches."
+        paragraph3="Our highly experienced staff can do the best quality of work and design logo of your business or personal brand into a digital embroidery design, all according to the conditions stipulated to us by the customer when submitting the digitizing order. Customers can further avail our digitizing services like puff and applique to make their logos have much more visual impact than with their just 2D/flat self. Moreover, we are proud to fulfill all the requirements of our clients and hence can provide the design in particular formats for your specific embroidery machines.
+For high quality and personal customized Logo embroidery digitizing and other such similar digitizing and vector art service, get in touch with us right away by sending us an email at design@topqualitypatches.com"
         bgClass="bg-white"
         reverse={false}
         paraColor='text-black'
