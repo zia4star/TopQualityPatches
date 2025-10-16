@@ -116,8 +116,8 @@ const Header = () =>{
                     <Nav.Link href="/pricing" className={` nav-link ${pathname === '/pricing' ? 'active' : ''}` }>Pricing Plans</Nav.Link>
                     <Nav.Link href="/portfolio" className={` nav-link ${pathname === '/portfolio'         ? 'active' : ''}` }>Portfolio</Nav.Link>
                     <Nav.Link href="/Contact" className={` nav-link ${pathname === '/Contact'             ? 'active' : ''}` }>Contact</Nav.Link>
-                    <Nav.Link href="/blogs" className={` nav-link ${pathname === '/blogs'             ? 'active' : ''}` }>Blogs</Nav.Link>
-                    <Nav.Link href="/account" className={` nav-link ${pathname === '/account'             ? 'active' : ''}` }>LogIn</Nav.Link>
+                    {/* <Nav.Link href="/blogs" className={` nav-link ${pathname === '/blogs'             ? 'active' : ''}` }>Blogs</Nav.Link> */}
+                    {/* <Nav.Link href="/account" className={` nav-link ${pathname === '/account'             ? 'active' : ''}` }>LogIn</Nav.Link> */}
 
                 </Nav>
                 
